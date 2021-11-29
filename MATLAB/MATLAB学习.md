@@ -9,7 +9,7 @@ clear	%清除变量
 clc		%清除命令行
 ```
 
-![image-20210310155543138](E:\FILE\MARKDOWN\image-20210310155543138.png)
+![image-20210310155543138](https://gitee.com/J_K_Oliver/images/raw/master/202111300312410.png)
 
 ```matlab
 1.602e-20	%e以10为底的幂次
@@ -26,9 +26,24 @@ sign();
 format short %设置精度 格式
 ```
 
-![image-20210310160435430](E:\FILE\MARKDOWN\image-20210310160435430.png)
+```matlab
+1.602e-20	%e以10为底的幂次
+a = 10 - 9i %复数运算
 
-![image-20210310160548627](E:\FILE\MARKDOWN\image-20210310160548627.png)
+%常用函数
+conj()	%共轭复数
+imag(); real();
+sign(); 
+%1，前提是 x 的对应元素大于 0。
+%0，前提是 x 的对应元素等于 0。
+%-1，前提是 x 的对应元素小于 0。
+%x./abs(x)，前提是 x 为复数。
+format short %设置精度 格式
+```
+
+![image-20210310160435430](https://gitee.com/J_K_Oliver/images/raw/master/202111300313321.png)
+
+![image-20210310160548627](https://gitee.com/J_K_Oliver/images/raw/master/202111300313458.png)
 
 | **函数名** | **含义**             |
 | ---------- | -------------------- |
@@ -102,9 +117,9 @@ end
 
 ### 矩阵
 
-![image-20210205071026405](E:\FILE\MARKDOWN\image-20210205071026405.png)
+![image-20210205071026405](https://gitee.com/J_K_Oliver/images/raw/master/202111300314784.png)
 
-![image-20210310161414203](E:\FILE\MARKDOWN\image-20210310161414203.png)
+![image-20210310161414203](https://gitee.com/J_K_Oliver/images/raw/master/202111300314738.png)
 
 换行表示实际换行
 
@@ -122,9 +137,9 @@ inv()	%求逆
 det()	%求行列式
 ```
 
-![image-20210205071252548](E:\FILE\MARKDOWN\image-20210205071252548.png)
+![image-20210205071252548](https://gitee.com/J_K_Oliver/images/raw/master/202111300314486.png)
 
-![image-20210310162215420](E:\FILE\MARKDOWN\image-20210310162215420.png)
+![image-20210310162215420](https://gitee.com/J_K_Oliver/images/raw/master/202111300314338.png)
 
 ```matlab
 [m,n]=size(A)：			%返回矩阵的行列数m与n。
@@ -149,7 +164,7 @@ sort()		%升序排列
 
 ## 希腊字母
 
-![img](E:\FILE\MARKDOWN\5d6034a85edf8db101c481c80523dd54574e74b0.jpg)
+![5d6034a85edf8db101c481c80523dd54574e74b0](https://gitee.com/J_K_Oliver/images/raw/master/202111300315356.jpg)
 
 α \alpha，β \beta、γ \gamma，θ \theta，Θ \Theta，Г \Gamma，δ \delta，Δ \Delta，ξ \xi，Ξ \Xi，η \elta，ε \epsilong，ζ \zeta，μ \miu，υ \nu，τ \tau，λ \lamda，∧ \Lamda，π \pi，∏ \Piσ \sigma，Φ \Phi，ψ \psi，Ψ \Psi，χ \chi，ω \ommiga，Ω道 \Ommiga，< \leq，> \geq。
 
@@ -229,7 +244,7 @@ cylinder(t.^2)
 sphere
 ```
 
-![image-20210205073402827](E:\FILE\MARKDOWN\image-20210205073402827.png)
+![image-20210205073402827](https://gitee.com/J_K_Oliver/images/raw/master/202111300315896.png)
 
 ### 分段函数
 
@@ -250,9 +265,9 @@ end
 >> plot(t,m)
 ```
 
-![image-20210205075301562](E:\FILE\MARKDOWN\image-20210205075301562.png)
 
 
+![image-20210205075301562](https://gitee.com/J_K_Oliver/images/raw/master/202111300315223.png)
 
 ### 隐函数绘制
 
@@ -299,7 +314,7 @@ myint=int(F*dl,t,0,pi)
 
 ## 常微分方程组并画图
 
-![img](E:\FILE\MARKDOWN\d4628535e5dde711804b0099a4efce1b9c1661c7.jpg)
+![d4628535e5dde711804b0099a4efce1b9c1661c7](https://gitee.com/J_K_Oliver/images/raw/master/202111300315799.jpg)
 
 ```matlab
 k0=8; k1=1; K=1; k2=5; n=2;    % 常数定义

@@ -59,7 +59,7 @@ R(x)=\left\{
 \end{document}
 ```
 
-![img](E:\FILE\MARKDOWN\IRQ%1XL1_42M62DNTU@9O8.png)
+![img](https://gitee.com/J_K_Oliver/images/raw/master/202111300317836.png)
 
 ```latex
 \documentclass[12pt]{article}
@@ -77,7 +77,7 @@ R(x)=\left\{
 \end{document}
 ```
 
-![QQ图片20200827205022](E:\FILE\MARKDOWN\QQ图片20200827205022.png)
+![QQ图片20200827205022](https://gitee.com/J_K_Oliver/images/raw/master/202111300318599.png)
 
 ### 公式编号问题
 
