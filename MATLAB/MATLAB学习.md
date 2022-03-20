@@ -374,3 +374,10 @@ xlabel \itt; ylabel '{\its}_1, {\its}_2 {\its}_3'
 legend('{\its}_1(\itt)', '{\its}_2(\itt)', '{\its}_3(\itt)')
 ```
 
+
+
+## 字体
+
+推荐字体：https://github.com/maxsky/Yahei-Monaco-Hybrid-Font
+
+安装方法：https://blog.csdn.net/weixin_38353851/article/details/123337781
