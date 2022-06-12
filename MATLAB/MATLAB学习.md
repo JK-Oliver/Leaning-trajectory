@@ -1,5 +1,7 @@
 # MATLAB学习
 
+[toc]
+
 ## 入门
 
 ### 杂七杂八
@@ -9,7 +11,7 @@ clear	%清除变量
 clc		%清除命令行
 ```
 
-![image-20210310155543138](https://gitee.com/J_K_Oliver/images/raw/master/202111300312410.png)
+![image-20210310155543138](https://pic-1312360537.cos.ap-nanjing.myqcloud.com/images/202111300312410.png)
 
 ```matlab
 1.602e-20	%e以10为底的幂次
@@ -41,9 +43,9 @@ sign();
 format short %设置精度 格式
 ```
 
-![image-20210310160435430](https://gitee.com/J_K_Oliver/images/raw/master/202111300313321.png)
+![image-20210310160435430](https://pic-1312360537.cos.ap-nanjing.myqcloud.com/images/202111300313321.png)
 
-![image-20210310160548627](https://gitee.com/J_K_Oliver/images/raw/master/202111300313458.png)
+![image-20210310160548627](https://pic-1312360537.cos.ap-nanjing.myqcloud.com/images/202111300313458.png)
 
 | **函数名** | **含义**             |
 | ---------- | -------------------- |
@@ -117,9 +119,9 @@ end
 
 ### 矩阵
 
-![image-20210205071026405](https://gitee.com/J_K_Oliver/images/raw/master/202111300314784.png)
+![image-20210205071026405](https://pic-1312360537.cos.ap-nanjing.myqcloud.com/images/202111300314784.png)
 
-![image-20210310161414203](https://gitee.com/J_K_Oliver/images/raw/master/202111300314738.png)
+![image-20210310161414203](https://pic-1312360537.cos.ap-nanjing.myqcloud.com/images/202111300314738.png)
 
 换行表示实际换行
 
@@ -137,9 +139,9 @@ inv()	%求逆
 det()	%求行列式
 ```
 
-![image-20210205071252548](https://gitee.com/J_K_Oliver/images/raw/master/202111300314486.png)
+![image-20210205071252548](https://pic-1312360537.cos.ap-nanjing.myqcloud.com/images/202111300314486.png)
 
-![image-20210310162215420](https://gitee.com/J_K_Oliver/images/raw/master/202111300314338.png)
+![image-20210310162215420](https://pic-1312360537.cos.ap-nanjing.myqcloud.com/images/202111300314338.png)
 
 ```matlab
 [m,n]=size(A)：			%返回矩阵的行列数m与n。
@@ -164,7 +166,7 @@ sort()		%升序排列
 
 ## 希腊字母
 
-![5d6034a85edf8db101c481c80523dd54574e74b0](https://gitee.com/J_K_Oliver/images/raw/master/202111300315356.jpg)
+![5d6034a85edf8db101c481c80523dd54574e74b0](https://pic-1312360537.cos.ap-nanjing.myqcloud.com/images/202111300315356.jpg)
 
 α \alpha，β \beta、γ \gamma，θ \theta，Θ \Theta，Г \Gamma，δ \delta，Δ \Delta，ξ \xi，Ξ \Xi，η \elta，ε \epsilong，ζ \zeta，μ \miu，υ \nu，τ \tau，λ \lamda，∧ \Lamda，π \pi，∏ \Piσ \sigma，Φ \Phi，ψ \psi，Ψ \Psi，χ \chi，ω \ommiga，Ω道 \Ommiga，< \leq，> \geq。
 
@@ -244,7 +246,7 @@ cylinder(t.^2)
 sphere
 ```
 
-![image-20210205073402827](https://gitee.com/J_K_Oliver/images/raw/master/202111300315896.png)
+![image-20210205073402827](https://pic-1312360537.cos.ap-nanjing.myqcloud.com/images/202111300315896.png)
 
 ### 分段函数
 
@@ -267,15 +269,13 @@ end
 
 
 
-![image-20210205075301562](https://gitee.com/J_K_Oliver/images/raw/master/202111300315223.png)
+![image-20210205075301562](https://pic-1312360537.cos.ap-nanjing.myqcloud.com/images/202111300315223.png)
 
 ### 隐函数绘制
 
 ```matlab
  fimplicit(@(x,y) (x.^2+y.^2-1).^3-x.^2.*y.^3,'-r')
 ```
-
-
 
 ### 匿名函数
 
@@ -314,7 +314,7 @@ myint=int(F*dl,t,0,pi)
 
 ## 常微分方程组并画图
 
-![d4628535e5dde711804b0099a4efce1b9c1661c7](https://gitee.com/J_K_Oliver/images/raw/master/202111300315799.jpg)
+![d4628535e5dde711804b0099a4efce1b9c1661c7](https://pic-1312360537.cos.ap-nanjing.myqcloud.com/images/202111300315799.jpg)
 
 ```matlab
 k0=8; k1=1; K=1; k2=5; n=2;    % 常数定义
