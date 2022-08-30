@@ -1,5 +1,7 @@
 # Latex
 
+<p align=right>~J.K. Huang</p>
+
 [toc]
 
 ## 基础知识

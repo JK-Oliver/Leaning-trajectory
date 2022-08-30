@@ -1,6 +1,6 @@
 # Git学习过程
 
-<p align='right'>~黄靖坤</p>
+<p align=right>~J.K. Huang</p>
 
 [toc]
 

@@ -1,3 +1,7 @@
+# C++
+
+<p align=right>~J.K. Huang</p>
+
 ## map
 
 ```c++
@@ -65,9 +69,40 @@ int main(){
 >
 > if else 结构的return没有写全，即存在有些分支没有return
 
-## 非结构体
 
-## 常见错误
 
-（1）当栈或队列为空时，不能进行pop()
+## 隐式转换
 
+```C++
+class Test1
+{
+public:
+    Test1(int n)
+    {
+        num=n;
+    }//普通构造函数
+private:
+    int num;
+};
+class Test2
+{
+public:
+    explicit Test2(int n)
+    {
+        num=n;
+    }//explicit(显式)构造函数
+private:
+    int num;
+};
+int main()
+{
+    Test1 t1=12;//隐式调用其默认拷贝构造函数,成功
+    Test2 t2=12;//编译错误,不能隐式调用其构造函数
+    Test2 t2(12);//显式调用成功
+    return 0;
+}
+```
+
+ AAA = XXX， 这样的代码， 且恰好XXX的类型正好是AAA单参数构造器的参数类型， 这时候编译器就自动调用这个构造器， 创建一个AAA的对象。
+
+explicit构造函数是用来防止隐式转换
